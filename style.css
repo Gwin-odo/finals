@@ -3,7 +3,7 @@ body{
 	height: 100vh;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(50deg, #0a6121,#24f25c );
+	background: linear-gradient(50deg, 	#000080,#800000 );
 }
 .container{
 	max-width:700px ;
@@ -11,11 +11,13 @@ body{
 	background: #fff;
 	padding: 25px 30px;
 	border-radius: 10px;
+	font-family: Copperplate, fantasy;
 
 }
 .container .title{
 	font-size: 25px;
 	font-weight: 500;
+	font-family: Copperplate, fantasy;
 }
 .container .title::before{
 content: '';
@@ -24,12 +26,13 @@ left: 0;
 bottom: 0;
 height: 3px;
 width: 30px;
-background: linear-gradient(50deg, #0a6121,#24f25c );
+background: linear-gradient(50deg, 	#000080,#800000 );
 }
 .container form .user-details{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	font-family: Copperplate, fantasy;
 }
 form .user-details .input-box {
 	margin-bottom: 15px;
@@ -40,6 +43,7 @@ form .user-details .input-box {
 	display: block;
 	font-weight: 500;
 	margin-bottom: 5px;
+	font-family: Copperplate, fantasy;
 }
 .user-details .input-box input{
 	height: 45px;
@@ -51,6 +55,7 @@ form .user-details .input-box {
 	font-size: 16px;
 	border-bottom-width:2px ;
 	transition:all 0.3s ease ;
+	font-family: Copperplate, fantasy;
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
@@ -59,12 +64,14 @@ form .user-details .input-box {
 form .gender-details .gender-title{
 	font-size: 20px;
 	font-weight: 500;
+	font-family: Copperplate, fantasy;
 }
 form .gender-details .category{
 	display: flex;
 	width: 80;
 	margin: 14px 0;
 	justify-content: space-between;
+	font-family: Copperplate, fantasy;
 }
 form .category label{
 	display: flex;
@@ -103,11 +110,12 @@ form .button input{
 	font-weight: 500;
 	border-radius: 5px;
 	letter-spacing: 1px;
-	background: linear-gradient(50deg, #0a6121,#24f25c );
+	background: linear-gradient(50deg, #000080,#800000 );
+	font-family: Copperplate, fantasy;
 }
 
 form .button input:hover{
-	background: linear-gradient(-50deg, #0a6121,#24f25c );
+	background: linear-gradient(-50deg, #000080,#800000 );
 }
 @media (max-width 584px){
 	.container{
